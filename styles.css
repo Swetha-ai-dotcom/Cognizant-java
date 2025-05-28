@@ -1,10 +1,16 @@
-h2 {
-  color: green;
-  font-family: Arial, sans-serif;
+/* ================================
+   External CSS Stylesheet
+   ================================ */
+
+/* Style for external heading */
+.styled-heading {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
 }
 
+/* Style for paragraph */
 p {
-  font-size: 16px;
-  color: #333;
+    color: #333;
+    font-size: 18px;
 }
-
