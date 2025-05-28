@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSS Demo</title>
+  <title>CSS Inclusion Methods</title>
 
-  <!-- Internal CSS -->
+  <!-- Internal CSS using <style> tag -->
   <style>
+    /* Body background style */
     body {
-      background-color: #f0f8ff; /* Light blue background */
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
     }
   </style>
 
-  <!-- Link to external CSS -->
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Inline CSS -->
-  <h1 style="color: red;">This heading is red using inline style</h1>
+  <!-- Inline CSS applied to make this heading red -->
+  <h1 style="color: red;">This heading is red using inline CSS</h1>
 
-  <h2>This heading will be styled using external CSS</h2>
+  <!-- This heading will use external CSS -->
+  <h2 class="subheading">This heading is styled using external CSS</h2>
 
-  <p>This is a paragraph to demonstrate CSS inclusion methods.</p>
+  <p>This paragraph will follow the general styles from the external CSS file.</p>
 
 </body>
 </html>
-
