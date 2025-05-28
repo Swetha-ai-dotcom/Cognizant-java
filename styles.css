@@ -1,16 +1,13 @@
-/* ================================
-   External CSS Stylesheet
-   ================================ */
-
-/* Style for external heading */
-.styled-heading {
-    color: green;
-    font-size: 24px;
-    font-weight: bold;
+/* Header styles */
+.subheading {
+  color: darkblue;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-/* Style for paragraph */
+/* Paragraph styles */
 p {
-    color: #333;
-    font-size: 18px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
 }
